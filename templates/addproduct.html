@@ -1,0 +1,21 @@
+{% block content %}
+  <form method="post">
+    <div class="">
+      <div class="">
+        {{ form.product.label }}
+        {{ form.product }}
+      </div>
+      <div class="">
+        {{ form.product_soort.label }}
+        {{ form.product_soort }}
+      </div>
+      <div class="">
+        {{ form.product_prijs.label }}
+        {{ form.product_prijs }}
+      </div>
+    </div>
+    <div class="">
+      {{ form.submit }}
+    </div>
+  </form>
+{% endblock %}
